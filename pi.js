@@ -1,12 +1,14 @@
-// JavaScript for Name Data Lookup Demo
+// JavaScript for Pi Demo
 // Jim Skon, Kenyon College, 2020
 
 
 
+$(document).ready(function () {
+
     $("#pi-btn").click(getMatches);
 
     $('#piresults').append("Hello");
-
+});
 
 
 
